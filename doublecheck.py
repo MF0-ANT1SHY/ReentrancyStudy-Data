@@ -37,7 +37,7 @@ def find_missing_sol_files(directory_path, csv_file):
 def main():
     # Replace these paths with your actual paths
     directory_path = "/home/shuo/repo/ReentrancyStudy-Data/reentrant_contracts/"
-    csv_file = "groundtruth_deduplicated.csv"
+    csv_file = "groundtruth.csv"
 
     try:
         missing_files = find_missing_sol_files(directory_path, csv_file)
