@@ -54,7 +54,7 @@ def compile_solidity_file(filename, csv_path="info.csv"):
 
         # Compile the contract
         logger.info(f"Compiling {filename}...")
-        contracts = compile_files([filename])
+        contracts = compile_files([filename], optimize=True, optimize_runs=1000000)
         logger.info("Compiled successfully")
 
         # Extract bytecode for each contract

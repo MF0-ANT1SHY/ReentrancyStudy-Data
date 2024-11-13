@@ -1,7 +1,7 @@
 import os
 
 # Example usage
-directory = "./bytecodes"
+directory = "./bytecodes_109"
 
 
 def remove_empty_files(directory):
